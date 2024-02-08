@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_UKejMNxjEe2tvOGBtvXM1w" name="Interface">
+    <eAnnotations xmi:id="_UYei8NxjEe2tvOGBtvXM1w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_UYfKANxjEe2tvOGBtvXM1w" source="codegen">
+        <details xmi:id="_UYfKAdxjEe2tvOGBtvXM1w" key="codegenDirectory" value="/Interface/src"/>
+        <details xmi:id="_Uqv-sNxjEe2tvOGBtvXM1w" key="AssociatedSourceCode" value="/Interface/src/InterfaceDemo/CocukKitaplari.java;580335180/1;/Interface/src/InterfaceDemo/IBaskiAl.java;203163882/1;/Interface/src/InterfaceDemo/IEKitapOlustur.java;2111315154/1;/Interface/src/InterfaceDemo/ISeslendir.java;1953190309/1;/Interface/src/InterfaceDemo/Kitaplar.java;837732614/1;/Interface/src/InterfaceDemo/Romanlar.java;335063183/1;/Interface/src/InterfaceDemo/Universite.java;2810426965/1;/Interface/src/InterfaceDemo/main.java;1788479476/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Uirn0NxjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO4NxjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO4dxjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO4txjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO49xjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO5NxjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO5dxjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_UisO5txjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Uis18NxjEe2tvOGBtvXM1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UiurINxjEe2tvOGBtvXM1w" name="InterfaceDemo">
+      <packagedElement xmi:type="uml:Class" xmi:id="_UjUhANxjEe2tvOGBtvXM1w" name="CocukKitaplari">
+        <generalization xmi:id="_UlfEMNxjEe2tvOGBtvXM1w" general="_Ujnb8NxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_Uld2ENxjEe2tvOGBtvXM1w" client="_UjUhANxjEe2tvOGBtvXM1w" supplier="_Ujcc0NxjEe2tvOGBtvXM1w" contract="_Ujcc0NxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_UledINxjEe2tvOGBtvXM1w" client="_UjUhANxjEe2tvOGBtvXM1w" supplier="_Ujk_sNxjEe2tvOGBtvXM1w" contract="_Ujk_sNxjEe2tvOGBtvXM1w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ulvi4NxjEe2tvOGBtvXM1w" name="seslendir" specification="_UjWWMNxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;çocuk kitapları seslendirilebilir&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul1CcNxjEe2tvOGBtvXM1w" name="BaskiAl" specification="_UjYLYNxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;çocuk kitapları baskı alınabilir&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UjWWMNxjEe2tvOGBtvXM1w" name="seslendir" method="_Ulvi4NxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_UjYLYNxjEe2tvOGBtvXM1w" name="BaskiAl" method="_Ul1CcNxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_UjaAkNxjEe2tvOGBtvXM1w" name="kitapSec"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Ujcc0NxjEe2tvOGBtvXM1w" name="IBaskiAl">
+        <ownedAttribute xmi:id="_UjeSANxjEe2tvOGBtvXM1w" name="baskikalitesi" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Uje5ENxjEe2tvOGBtvXM1w" value="&quot;A4&quot;"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_UjfgINxjEe2tvOGBtvXM1w" name="BaskiAl"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_UjgHMNxjEe2tvOGBtvXM1w" name="IEKitapOlustur">
+        <ownedAttribute xmi:id="_UjguQNxjEe2tvOGBtvXM1w" name="EKitapKaitesikalitesi" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UjhVUNxjEe2tvOGBtvXM1w" value="&quot;.pdf&quot;"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_Ujh8YNxjEe2tvOGBtvXM1w" name="EKitapOlustur"/>
+        <ownedOperation xmi:id="_UjijcNxjEe2tvOGBtvXM1w" name="EKitapOlustur2" method="_Ul1pgNxjEe2tvOGBtvXM1w">
+          <eAnnotations xmi:id="_UjijcdxjEe2tvOGBtvXM1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UjijctxjEe2tvOGBtvXM1w" key="defender"/>
+          </eAnnotations>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Ujk_sNxjEe2tvOGBtvXM1w" name="ISeslendir">
+        <ownedAttribute xmi:id="_UjlmwNxjEe2tvOGBtvXM1w" name="sesKalitesi" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UjmN0NxjEe2tvOGBtvXM1w" value="&quot;MP4&quot;"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_Ujm04NxjEe2tvOGBtvXM1w" name="seslendir"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ujnb8NxjEe2tvOGBtvXM1w" name="Kitaplar" isAbstract="true">
+        <ownedAttribute xmi:id="_UlmY8NxjEe2tvOGBtvXM1w" name="ad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UlnnENxjEe2tvOGBtvXM1w" name="isbn">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UloOIdxjEe2tvOGBtvXM1w" name="yazar">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UlpcQdxjEe2tvOGBtvXM1w" name="basimYili">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UlqqYNxjEe2tvOGBtvXM1w" name="fiyat">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_UlfrQNxjEe2tvOGBtvXM1w" client="_Ujnb8NxjEe2tvOGBtvXM1w" supplier="_Ujcc0NxjEe2tvOGBtvXM1w" contract="_Ujcc0NxjEe2tvOGBtvXM1w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul23oNxjEe2tvOGBtvXM1w" name="Kitaplar" specification="_Ujs7gNxjEe2tvOGBtvXM1w">
+          <ownedParameter xmi:id="_Ul23odxjEe2tvOGBtvXM1w" name="ad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ul23otxjEe2tvOGBtvXM1w" name="yazar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ul23o9xjEe2tvOGBtvXM1w" name="fiyat">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ul23pNxjEe2tvOGBtvXM1w" type="_Ujnb8NxjEe2tvOGBtvXM1w" direction="return"/>
+          <language>java</language>
+          <body>this.ad = ad;&#xD;
+		this.yazar = yazar;&#xD;
+		this.fiyat = fiyat;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UjrGUNxjEe2tvOGBtvXM1w" name="Kitaplar" visibility="package">
+          <eAnnotations xmi:id="_UjrGUdxjEe2tvOGBtvXM1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UjrtYNxjEe2tvOGBtvXM1w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_UjsUcNxjEe2tvOGBtvXM1w" type="_Ujnb8NxjEe2tvOGBtvXM1w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Ujs7gNxjEe2tvOGBtvXM1w" name="Kitaplar" visibility="package" method="_Ul23oNxjEe2tvOGBtvXM1w">
+          <eAnnotations xmi:id="_Ujtik9xjEe2tvOGBtvXM1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UjuJoNxjEe2tvOGBtvXM1w" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_UjtikNxjEe2tvOGBtvXM1w" name="ad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UjtikdxjEe2tvOGBtvXM1w" name="yazar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UjtiktxjEe2tvOGBtvXM1w" name="fiyat">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UjuJodxjEe2tvOGBtvXM1w" type="_Ujnb8NxjEe2tvOGBtvXM1w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UjuwsNxjEe2tvOGBtvXM1w" name="kitapSec" isAbstract="true"/>
+        <ownedOperation xmi:id="_UjuwsdxjEe2tvOGBtvXM1w" name="kitapSec2" visibility="package"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ujx0ANxjEe2tvOGBtvXM1w" name="Romanlar">
+        <generalization xmi:id="_UliukdxjEe2tvOGBtvXM1w" general="_Ujnb8NxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_UlhgcNxjEe2tvOGBtvXM1w" client="_Ujx0ANxjEe2tvOGBtvXM1w" supplier="_Ujcc0NxjEe2tvOGBtvXM1w" contract="_Ujcc0NxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_UliHgNxjEe2tvOGBtvXM1w" client="_Ujx0ANxjEe2tvOGBtvXM1w" supplier="_Ujk_sNxjEe2tvOGBtvXM1w" contract="_Ujk_sNxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_UliukNxjEe2tvOGBtvXM1w" client="_Ujx0ANxjEe2tvOGBtvXM1w" supplier="_UjgHMNxjEe2tvOGBtvXM1w" contract="_UjgHMNxjEe2tvOGBtvXM1w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul6iANxjEe2tvOGBtvXM1w" name="EKitapOlustur" specification="_UjzpMNxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;roman kitapları E-Kitap olarak oluşturulabilir&quot;);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul6iAdxjEe2tvOGBtvXM1w" name="seslendir" specification="_Uj1eYNxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;roman kitapları seslendirilebilir&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul6iAtxjEe2tvOGBtvXM1w" name="BaskiAl" specification="_Uj2sgtxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;roman kitapları baskı alınabilir&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UjzpMNxjEe2tvOGBtvXM1w" name="EKitapOlustur" method="_Ul6iANxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_Uj1eYNxjEe2tvOGBtvXM1w" name="seslendir" method="_Ul6iAdxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_Uj2sgtxjEe2tvOGBtvXM1w" name="BaskiAl" method="_Ul6iAtxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_Uj4hstxjEe2tvOGBtvXM1w" name="kitapSec"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Uj-BQNxjEe2tvOGBtvXM1w" name="Universite">
+        <generalization xmi:id="_Ulj8sdxjEe2tvOGBtvXM1w" general="_Ujnb8NxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_UljVoNxjEe2tvOGBtvXM1w" client="_Uj-BQNxjEe2tvOGBtvXM1w" supplier="_Ujcc0NxjEe2tvOGBtvXM1w" contract="_Ujcc0NxjEe2tvOGBtvXM1w"/>
+        <interfaceRealization xmi:id="_Ulj8sNxjEe2tvOGBtvXM1w" client="_Uj-BQNxjEe2tvOGBtvXM1w" supplier="_UjgHMNxjEe2tvOGBtvXM1w" contract="_UjgHMNxjEe2tvOGBtvXM1w"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul7JENxjEe2tvOGBtvXM1w" name="EKitapOlustur" specification="_Uj_PYNxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;üniversite kitapları E-Kitap olarak oluşturulabilir&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul7JEdxjEe2tvOGBtvXM1w" name="BaskiAl" specification="_UkBroNxjEe2tvOGBtvXM1w">
+          <language>java</language>
+          <body>System.out.println(&quot;üniversite kitapları baskı alınabilir&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Uj_PYNxjEe2tvOGBtvXM1w" name="EKitapOlustur" method="_Ul7JENxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_UkBroNxjEe2tvOGBtvXM1w" name="BaskiAl" method="_Ul7JEdxjEe2tvOGBtvXM1w"/>
+        <ownedOperation xmi:id="_UkF9EtxjEe2tvOGBtvXM1w" name="kitapSec"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UkJncNxjEe2tvOGBtvXM1w" name="main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ul7wINxjEe2tvOGBtvXM1w" name="main" specification="_UkLcoNxjEe2tvOGBtvXM1w">
+          <ownedParameter xmi:id="_Ul7wIdxjEe2tvOGBtvXM1w" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ul7wItxjEe2tvOGBtvXM1w" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Kitaplar k1 = new Kitaplar() hata veriir abstract sınıftan örnek alınamaz&#xD;
+&#xD;
+		Kitaplar k1 = new Universite();&#xD;
+		k1.BaskiAl();&#xD;
+		System.out.println(&quot;---------------------&quot;);&#xD;
+		Universite k2 = new Universite();&#xD;
+		k2.EKitapOlustur();&#xD;
+		// k2.baskikalitesi=&quot;A5&quot;; değeri değişemez&#xD;
+		System.out.println(k2.baskikalitesi);&#xD;
+		k2.EKitapOlustur();&#xD;
+		k2.EKitapOlustur2();&#xD;
+		&#xD;
+		/*IBaskiAl b1 = new Universite();&#xD;
+		b1.BaskiAl();*/ //hata vermez&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UkLcoNxjEe2tvOGBtvXM1w" name="main" isStatic="true" method="_Ul7wINxjEe2tvOGBtvXM1w">
+          <ownedParameter xmi:id="_UkLcodxjEe2tvOGBtvXM1w" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UkMDsNxjEe2tvOGBtvXM1w" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_UYfxENxjEe2tvOGBtvXM1w">
+      <eAnnotations xmi:id="_UYfxEdxjEe2tvOGBtvXM1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_UYgYINxjEe2tvOGBtvXM1w" base_Package="_UKejMNxjEe2tvOGBtvXM1w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UjW9QNxjEe2tvOGBtvXM1w" base_Element="_UjWWMNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_UjXkUNxjEe2tvOGBtvXM1w" base_Element="_UjWWMNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_UjXkUdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UjYycNxjEe2tvOGBtvXM1w" base_Element="_UjYLYNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_UjZZgNxjEe2tvOGBtvXM1w" base_Element="_UjYLYNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_UjZZgdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UjanoNxjEe2tvOGBtvXM1w" base_Element="_UjaAkNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_UjbOsNxjEe2tvOGBtvXM1w" base_Element="_UjaAkNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_UjbOsdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UjkYoNxjEe2tvOGBtvXM1w" base_Element="_UjijcNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UjrtYdxjEe2tvOGBtvXM1w" base_Element="_UjrGUNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ujv-0NxjEe2tvOGBtvXM1w" base_Element="_UjuwsdxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uj0QQNxjEe2tvOGBtvXM1w" base_Element="_UjzpMNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_Uj03UNxjEe2tvOGBtvXM1w" base_Element="_UjzpMNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_Uj03UdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uj2FcNxjEe2tvOGBtvXM1w" base_Element="_Uj1eYNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_Uj2sgNxjEe2tvOGBtvXM1w" base_Element="_Uj1eYNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_Uj2sgdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uj3TkNxjEe2tvOGBtvXM1w" base_Element="_Uj2sgtxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_Uj4hsNxjEe2tvOGBtvXM1w" base_Element="_Uj2sgtxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_Uj4hsdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uj6W4NxjEe2tvOGBtvXM1w" base_Element="_Uj4hstxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_Uj698NxjEe2tvOGBtvXM1w" base_Element="_Uj4hstxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_Uj7lANxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uj_2cNxjEe2tvOGBtvXM1w" base_Element="_Uj_PYNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_UkBEkNxjEe2tvOGBtvXM1w" base_Element="_Uj_PYNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_UkBEkdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UkEu8NxjEe2tvOGBtvXM1w" base_Element="_UkBroNxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_UkF9ENxjEe2tvOGBtvXM1w" base_Element="_UkBroNxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_UkF9EdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UkHLMNxjEe2tvOGBtvXM1w" base_Element="_UkF9EtxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:Annotations xmi:id="_UkHyQNxjEe2tvOGBtvXM1w" base_Element="_UkF9EtxjEe2tvOGBtvXM1w">
+    <annotations xmi:id="_UkHyQdxjEe2tvOGBtvXM1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UlnAANxjEe2tvOGBtvXM1w" base_Element="_UlmY8NxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UloOINxjEe2tvOGBtvXM1w" base_Element="_UlnnENxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UlpcQNxjEe2tvOGBtvXM1w" base_Element="_UloOIdxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UlqDUNxjEe2tvOGBtvXM1w" base_Element="_UlpcQdxjEe2tvOGBtvXM1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UlrRcNxjEe2tvOGBtvXM1w" base_Element="_UlqqYNxjEe2tvOGBtvXM1w"/>
+  <uml:OpaqueBehavior xmi:id="_Ul1pgNxjEe2tvOGBtvXM1w" name="EKitapOlustur2" specification="_UjijcNxjEe2tvOGBtvXM1w">
+    <language>java</language>
+    <body>System.out.println(&quot;e kitap oluşturuldu&quot;);&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+</xmi:XMI>
